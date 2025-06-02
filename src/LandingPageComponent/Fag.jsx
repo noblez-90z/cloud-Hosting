@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import minus from "../assets/minus.svg";
+import minus from "../assets/Minus.svg";
 import plus from "../assets/plus.svg";
 
 const faqData = [
