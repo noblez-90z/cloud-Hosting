@@ -2,10 +2,10 @@ import { useState } from "react";
 import logo from "../assets/logo.png";
 import user from "../assets/user.svg";
 
-import minus from "../assets/minus.svg";
+import minus from "../assets/Minus.svg";
 import menu from "../assets/menu.svg";
 import cancelmenu from "../assets/CancelMenu.svg";
-// import HeadCheck from "./HeadCheck";
+
 import plus from "../assets/plus.svg";
 import { Link } from "react-router-dom";
 const Header = () => {
