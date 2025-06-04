@@ -248,7 +248,7 @@ const Header = () => {
             Register
           </button>
           <button
-            className="md:hidden py-1 px-3 bg-[#8c32ff] rounded-lg font-semibold text-xl text-[#000]   tranistion 0s ease-in-out"
+            className="md:hidden block z-10 py-1 px-3 bg-[#8c32ff] rounded-lg font-semibold text-xl text-[#000]   tranistion 0s ease-in-out"
             onClick={handleOpenMenu}
           >
             {OpenMenu ? (
@@ -264,7 +264,7 @@ const Header = () => {
 
       {OpenMenu && (
         <div
-          className=" bg-[#000]  ml-0  block md:hidden h-screen absolute top-0 left-0 w-[80%] z-30"
+          className=" bg-[#000]  ml-0  block md:hidden h-screen absolute top-0 left-0 w-[80%] z-30 overflow-x-hidden"
           style={{ marginLeft: OpenMenu ? "0" : "-100%" }}
         >
           <div className=" h-20 w-full flex items-center justify-center">

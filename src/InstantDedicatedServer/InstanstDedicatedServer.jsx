@@ -3,7 +3,7 @@ import InstantSection from "./InstantSection";
 
 const InstaneDedicatedServer = () => {
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       <InstantHero />
       <InstantSection />
     </div>

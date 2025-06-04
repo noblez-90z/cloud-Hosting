@@ -1,5 +1,3 @@
-import image from "../assets/svg8.svg";
-
 import club from "../assets/club.png";
 import com from "../assets/com.png";
 import online from "../assets/online.png";
@@ -12,9 +10,9 @@ import domain from "../assets/domain.svg";
 const SectionTwo = () => {
   return (
     <section className="bg-[#000]">
-      <div className="container px-8  mx-auto bg-[#000]">
+      <div className=" px-8  mx-auto bg-[#000]">
         <div className="    py-6 ">
-          <div class="flex justify-center space-x-20 pb-20 mb-10 ">
+          <div class="flex justify-center space-x-3 md:space-x-20 py-20 mb-10 ">
             <div>
               <img src={club} alt="" />
             </div>
@@ -32,7 +30,7 @@ const SectionTwo = () => {
             </div>
           </div>
 
-          <div className=" md:flex justify-around gap-3 items-center px-6 mt-8 z-10">
+          <div className=" md:flex justify-around gap-3 items-center md:px-6 mt-8 z-10">
             <div class="card-style-eleven mt-5 md:mt-0 border-2 px-6 py-3 rounded-xl bg-[#000] flex-1 z-10">
               <img src={wordpress} alt="" className="py-4" />
               <h4 className="font-bold text-xl py-6 text-white">

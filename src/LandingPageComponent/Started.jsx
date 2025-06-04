@@ -5,8 +5,8 @@ import pics from "../assets/8502296.png";
 const Started = () => {
   return (
     <div className="py-6 px-4 bg-[#000] text-white">
-      <div className=" py-6 md:px-6  rounded-lg flex flex-col lg:flex-row items-center justify-between">
-        <div class="section-heading flex-1">
+      <div className=" py-6 md:px-6 px-2 rounded-lg flex flex-col lg:flex-row items-center justify-between">
+        <div className="section-heading flex-1">
           <h2 className="font-bold text-5xl py-3">Focused on You, Always</h2>
           <p className="text-gray-500 text-[18px] font-normal leading-[24px] tracking-[-0.2px] py-3">
             We prioritize your satisfaction and tailor our services to meet your
@@ -18,14 +18,13 @@ const Started = () => {
             you're equally important. Our team is committed to delivering the
             best support in every situation. */}
           </p>
-          <ul class="baner-list">
+          <ul className="baner-list">
             <li className="flex items-start gap-4 py-3">
               {" "}
               <img
                 src={icon1}
                 alt="svg"
-                className="w-[32px] mt-2 "
-                style={{ color: "white", stroke: "white" }}
+                className="w-[40px] mt-2  p-2 bg-[#9281a8]"
               />
               <span>
                 <h4 className="font-semibold text-3xl pb-3">
@@ -40,7 +39,7 @@ const Started = () => {
               </span>
             </li>
             <li className="flex items-start gap-4 py-3">
-              <img src={icon2} alt="svg" className="mt-2" />
+              <img src={icon2} alt="svg" className="mt-2 p-2 bg-[#9281a8]" />
               <span>
                 <h4 className="font-semibold text-3xl pb-3">
                   Stay Online, All the Time
@@ -54,7 +53,11 @@ const Started = () => {
               </span>
             </li>
             <li className="flex items-start gap-4 py-3">
-              <img src={icon3} alt="svg" className="w-[32px] mt-2" />
+              <img
+                src={icon3}
+                alt="svg"
+                className="w-[40px] mt-2 p-2 bg-[#9281a8]"
+              />
               <span>
                 <h4 className="font-semibold text-3xl pb-3">
                   Satisfaction or Your Money Back
@@ -68,23 +71,23 @@ const Started = () => {
               </span>
             </li>
           </ul>
-          <div class="border border-[#8c32ff] bg-[#8c32ff] rounded-2xl mt-6 w-40 py-2 hover:bg-[#000] text-center text-white font-semibold">
-            <a class="btn-02" href="#">
+          <div className="border border-[#8c32ff] bg-[#8c32ff] rounded-2xl mt-6 w-40 py-2 hover:bg-[#000] text-center text-white font-semibold">
+            <a className="btn-02" href="#">
               {" "}
               Go to know us
             </a>
           </div>
         </div>
-        <div class="col-lg-6 text-end">
+        <div className="col-lg-6 text-end">
           <img src={pics} alt="png" width="480" />
         </div>
       </div>
-      <div className=" py-6 px-6 text-center">
-        <div class="best-web-hosting__header">
+      <div className=" py-6 md:px-6 px-2 text-center">
+        <div className="best-web-hosting__header">
           <h2 className="best-web-hosting__title text-4xl font-bold py-3">
             The Right Hosting Partner for Your Needs
           </h2>
-          <p class="best-web-hosting__subtitle py-3 text-gray-500">
+          <p className="best-web-hosting__subtitle py-3 text-gray-500">
             Customers worldwide trust us for high-quality web hosting that’s
             fast, reliable, and built to support their growth.
           </p>
@@ -95,7 +98,7 @@ const Started = () => {
               <h3 className="best-web-hosting__card-title font-bold text-2xl py-3">
                 Trusted by Businesses Since 2019
               </h3>
-              <p class="best-web-hosting__card-text py-3 text-gray-500">
+              <p className="best-web-hosting__card-text py-3 text-gray-500">
                 For over 5 years, we've been providing web hosting services
                 worldwide, earning the trust of thousands of customers. We're
                 committed to delivering top-tier hosting solutions and leading
@@ -103,11 +106,11 @@ const Started = () => {
               </p>
             </div>
 
-            <div class="best-web-hosting__card best-web-hosting__card--scalability  border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3] ">
-              <h3 class="best-web-hosting__card-title font-bold text-2xl py-3">
+            <div className="best-web-hosting__card best-web-hosting__card--scalability  border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3] ">
+              <h3 className="best-web-hosting__card-title font-bold text-2xl py-3">
                 Premium Hosting You’ll Love
               </h3>
-              <p class="best-web-hosting__card-text py-3 font-normal text-[16px] text-gray-500">
+              <p className="best-web-hosting__card-text py-3 font-normal text-[16px] text-gray-500">
                 Our affordable services, including Web Hosting, VPS, and
                 Servers, offer unmatched value. Get double the resources for the
                 same price—outperforming 99% of competitors without compromising
@@ -131,24 +134,24 @@ const Started = () => {
                 <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
               </svg>
             </div>
-            <div class="best-web-hosting__card-badge font-semibold text-2xl text-[#fff]">
+            <div className="best-web-hosting__card-badge font-semibold text-2xl text-[#fff]">
               Credible reputation
             </div>
           </div>
           <div className="flex flex-col lg:flex-row items-center justify-between gap-3 py-3">
-            <div class="best-web-hosting__card best-web-hosting__card--security border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3] flex-1">
-              <h3 class="best-web-hosting__card-title font-bold text-2xl py-3">
+            <div className="best-web-hosting__card best-web-hosting__card--security border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3] flex-1">
+              <h3 className="best-web-hosting__card-title font-bold text-2xl py-3">
                 Complete Protection Everywherey
               </h3>
-              <p class="best-web-hosting__card-text py-3 text-gray-500">
+              <p className="best-web-hosting__card-text py-3 text-gray-500">
                 Your server and data are protected by multi-layered security,
                 top-tier data centers, advanced firewalls, and DDoS protection
                 to safeguard against attacks. Cyber threats and viruses don’t
                 stand a chance!
               </p>
             </div>
-            <div class="best-web-hosting__card best-web-hosting__card--affordable border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3] flex-1">
-              <div class="best-web-hosting__icon w-12 mx-auto py-8">
+            <div className="best-web-hosting__card best-web-hosting__card--affordable border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3] flex-1">
+              <div className="best-web-hosting__icon w-12 mx-auto py-8">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -164,17 +167,17 @@ const Started = () => {
                   <path d="M15.5 16a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
                 </svg>
               </div>
-              <div class="best-web-hosting__card-badge py-4 font-semibold text-2xl text-[#fff]">
+              <div className="best-web-hosting__card-badge py-4 font-semibold text-2xl text-[#fff]">
                 Most affordable prices
               </div>
             </div>
           </div>
           <div className="">
-            <div class="best-web-hosting__card best-web-hosting__card--technologies border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3] mt-3">
-              <h3 class="best-web-hosting__card-title font-bold text-2xl py-3">
+            <div className="best-web-hosting__card best-web-hosting__card--technologies border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3] mt-3">
+              <h3 className="best-web-hosting__card-title font-bold text-2xl py-3">
                 Comprehensive Hosting Solutions
               </h3>
-              <p class="best-web-hosting__card-text py-3 text-gray-500">
+              <p className="best-web-hosting__card-text py-3 text-gray-500">
                 From web hosting to full-scale server solutions, we've got
                 everything you need under one roof. No need to search around—our
                 expert team handles everything from unmanaged setups to fully

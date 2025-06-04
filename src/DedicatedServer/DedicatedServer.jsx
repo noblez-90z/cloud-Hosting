@@ -3,7 +3,7 @@ import Section from "./Section";
 
 const DedicatedServer = () => {
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       <div className="bg-[#000]">
         <Hero />
         <Section />

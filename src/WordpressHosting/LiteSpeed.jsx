@@ -3,23 +3,23 @@ import LiteSpeedSection from "./LiteSpeedSection";
 
 const LiteSpeed = () => {
   return (
-    <div className="md:px-6 px-4 bg-[#000]">
+    <div className="md:px-6 px-4 bg-[#000] text-white ">
       {/* <!--------------litespeed-web-server ------------------> */}
 
       <section className="wordpress-hosting-litespeed-web-server-section py-6">
         {/* <!-- Background decoration --> */}
-        <div className="wordpress-hosting-litespeed-web-server-bg-decoration"></div>
+        {/* <div className="wordpress-hosting-litespeed-web-server-bg-decoration"></div> */}
 
         {/* <!-- Header --> */}
         <div className="wordpress-hosting-litespeed-web-server-header text-center py-6">
           <h2 className="wordpress-hosting-litespeed-web-server-title font-bold text-3xl py-4">
             LiteSpeed Web Server + LS Cache
           </h2>
-          <h3 className="wordpress-hosting-litespeed-web-server-subtitle font-semibold text-lg py-2">
+          <h3 className="wordpress-hosting-litespeed-web-server-subtitle font-semibold text-lg text-gray-300 py-2">
             Supercharge Your WordPress Site with Blazing-Fast LiteSpeed WP
             Hosting
           </h3>
-          <p className="wordpress-hosting-litespeed-web-server-description py-4">
+          <p className="wordpress-hosting-litespeed-web-server-description text-gray-300 py-4">
             Give your visitors the speed they deserve. At URLStart, we use
             LiteSpeed Web Server to deliver exceptional WordPress
             performance—fast load times, smooth browsing, and reliable uptime
@@ -34,7 +34,7 @@ const LiteSpeed = () => {
           <h3 className="wordpress-hosting-litespeed-web-server-load-time-title font-bold text-2xl py-4">
             Page Load Time Battle: Which Web Server Wins?
           </h3>
-          <p className="wordpress-hosting-litespeed-web-server-load-time-subtitle py-3">
+          <p className="wordpress-hosting-litespeed-web-server-load-time-subtitle text-gray-300 py-3">
             Performance Benchmarked Under 1,000-User Load
           </p>
 

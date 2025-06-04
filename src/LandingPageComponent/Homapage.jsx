@@ -6,7 +6,7 @@ import Started from "./Started";
 
 const Homepage = () => {
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       <Section />
       <SectionTwo />
       <Hosting />

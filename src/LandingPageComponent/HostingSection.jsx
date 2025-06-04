@@ -1,8 +1,8 @@
 const Hosting = () => {
   return (
-    <div className="px-6 bg-[#000] text-white">
+    <div className="md:px-6 px-2 bg-[#000] text-white py-6">
       <section className=" py-5">
-        <div class="hosting-services__header text-center mt-4">
+        <div class="hosting-services__header text-center mt-4 px-2">
           <h2 className="hosting-services__title font-bold text-3xl">
             Web hosting services for all your business needs
           </h2>
@@ -12,7 +12,7 @@ const Hosting = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 px-4 mt-10 gap-4 py-4 ">
-          <div class="hosting-services__grid shadow-md rounded-lg border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
+          <div class="hosting-services__grid  rounded-lg border-2 border-[#8c32ff] transition-all duration-300 ease-in-out py-4 px-4  hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
             {/* WordPress Hosting */}
             <div className="hosting-services__card hosting-services__card--wordpress text-center py-4 px-4">
               <div class="hosting-services__icon">
@@ -50,8 +50,8 @@ const Hosting = () => {
             </div>
           </div>
           {/* Cloud Hosting - Popular */}
-          <div class="hosting-services__card hosting-services__card--cloud  rounded-lg text-center py-4 px-4 bg-[#8c32ff] border-2 border-[#8c32ff] relative shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
-            <div class="hosting-services__popular-tag font-semibold mx-auto text-[#000] text-xl mb-4 border border-[#8c32ff] rounded-full w-40 px-4 py-1 text-center bg-[#000] text-[#8c32ff] absolute top-[-20px] left-1/2 transform -translate-x-1/2">
+          <div class="hosting-services__card hosting-services__card--cloud  rounded-lg text-center py-4 px-4 bg-[#8c32ff] border-2 border-[#8c32ff] relative shadow-md transition-all duration-300 ease-in-out  hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3] mt-10 md:mt-0">
+            <div class="hosting-services__popular-tag font-semibold mx-auto  text-xl mb-4 border border-[#8c32ff] rounded-full w-40 px-4 py-1 text-center bg-[#000] text-[#8c32ff] absolute top-[-20px] left-1/2 transform -translate-x-1/2">
               Most Popular
             </div>
             <div class="hosting-services__icon">
@@ -86,7 +86,7 @@ const Hosting = () => {
               </a>
             </button>
           </div>
-          <div class="hosting-services__card hosting-services__card--vps shadow-md text-center py-4 px-4 rounded-lg border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
+          <div class="hosting-services__card hosting-services__card--vps  text-center py-4 px-4 rounded-lg border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out  hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
             <div class="hosting-services__icon">
               <img
                 width="60"
@@ -121,7 +121,7 @@ const Hosting = () => {
             </button>
           </div>
           {/* Dedicated Server  */}
-          <div class="hosting-services__card hosting-services__card--dedicated  shadow-md text-center py-4 px-4 rounded-lg border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
+          <div class="hosting-services__card hosting-services__card--dedicated  shadow-md text-center  border-2 border-[#8c32ff]  transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
             <div class="hosting-services__icon">
               <img
                 width="60"
@@ -156,7 +156,7 @@ const Hosting = () => {
             </button>
           </div>
           {/* WooCommerce Hosting */}
-          <div class="hosting-services__card hosting-services__card--woocommerce shadow-md text-center py-4 px-4 rounded-lg border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
+          <div class="hosting-services__card hosting-services__card--woocommerce shadow-md text-center  border-2 border-[#8c32ff]  transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
             <div class="hosting-services__icon">
               <img
                 width="60"
@@ -191,7 +191,7 @@ const Hosting = () => {
             </button>
           </div>
           {/* Magento  */}
-          <div class="hosting-services__card hosting-services__card--magento  text-center py-4 px-4 rounded-lg shadow-md border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
+          <div class="hosting-services__card hosting-services__card--magento  text-center py-4 px-4 rounded-lg shadow-md border-2 border-[#8c32ff] transition-all duration-300 ease-in-out hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
             <div class="hosting-services__icon">
               <img
                 width="60"

@@ -1,8 +1,8 @@
 const ComparisonSection = () => {
   return (
-    <section className="py-16 bg-[#000]">
+    <section className="py-16 bg-[#000] text-white">
       <div className="max-w-7xl mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold mb-2">
+        <h2 className="text-3xl font-bold mb-2 py-5">
           Why Our Instant Servers Beat The Competition
         </h2>
         <p className="text-gray-400 mb-8">
@@ -10,7 +10,7 @@ const ComparisonSection = () => {
           deployment options
         </p>
 
-        <div className="overflow-x-auto rounded-2xl bg-[#171717]">
+        <div className="overflow-x-auto rounded-2xl bg-[#171717] text-gray-300">
           <table className="min-w-full table-auto  text-left ">
             <thead className="bg-[#8c32ff] ">
               <tr>
@@ -102,7 +102,7 @@ const ComparisonSection = () => {
           </p>
           <a
             href="#plan"
-            className="inline-block px-6 py-3 text-white bg-emerald-500 hover:bg-emerald-600 rounded-xl font-semibold transition"
+            className="inline-block px-6 py-3 text-white bg-[#8c32ff] hover:bg-black rounded-xl font-semibold transition"
           >
             Deploy Your Instant Server Now
           </a>

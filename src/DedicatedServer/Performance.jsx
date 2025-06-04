@@ -70,7 +70,7 @@ const Performance = () => {
                     style={{ marginRight: "4px" }}
                   />{" "}
                 </div>
-                <h4 className="font-bold text-xl py-4">
+                <h4 className="font-bold text-xl ">
                   Server{" "}
                   <span className="text-[#8c32ff]">Administration Panel</span>
                 </h4>

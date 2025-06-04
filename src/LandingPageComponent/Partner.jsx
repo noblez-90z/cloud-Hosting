@@ -20,28 +20,28 @@ const Partner = () => {
 
         <div class="our-partner-logos-container">
           <div class="our-partner-logos-grid grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            <div class="our-partner-logo py-6 px-4 rounded-lg shadow-lg  shadow-md flex justify-center items-center">
+            <div class="our-partner-logo py-6 px-4 rounded-lg shadow-lg   flex justify-center items-center">
               <img src={cpanel} alt="cPanel" />
             </div>
-            <div class="our-partner-logo py-6 px-4 rounded-lg shadow-lg  shadow-md flex justify-center items-center">
+            <div class="our-partner-logo py-6 px-4 rounded-lg shadow-lg   flex justify-center items-center">
               <img src={virtual} alt="Virtualizor" />
             </div>
-            <div class="our-partner-logo flex justify-center items-center py-6 px-4 rounded-lg shadow-lg  shadow-md">
+            <div class="our-partner-logo flex justify-center items-center py-6 px-4 rounded-lg shadow-lg  ">
               <img src={proxmox} alt="Proxmox" />
             </div>
-            <div class="our-partner-logo py-6 px-4 rounded-lg shadow-lg  shadow-md">
+            <div class="our-partner-logo py-6 px-4 rounded-lg shadow-lg  ">
               <img src={letsEncrypt} alt="Let's Encrypt" />
             </div>
-            <div class="our-partner-logo py-6 px-4 rounded-lg shadow-lg  shadow-md flex justify-center items-center">
+            <div class="our-partner-logo py-6 px-4 rounded-lg shadow-lg   flex justify-center items-center">
               <img src={ripe} alt="RIPE NCC" />
             </div>
-            <div class="our-partner-logo py-6 px-4 rounded-lg shadow-lg  shadow-md flex justify-center items-center">
+            <div class="our-partner-logo py-6 px-4 rounded-lg shadow-lg   flex justify-center items-center">
               <img src={dell} alt="Dell Technologies" />
             </div>
-            <div class="our-partner-logo py-6 px-4 rounded-lg shadow-lg  shadow-md">
+            <div class="our-partner-logo py-6 px-4 rounded-lg shadow-lg  ">
               <img src={hp} alt="HP" />
             </div>
-            <div class="our-partner-logo py-6 px-4 rounded-lg shadow-lg  shadow-md">
+            <div class="our-partner-logo py-6 px-4 rounded-lg shadow-lg  ">
               <img src={intel} alt="Intel" />
             </div>
           </div>

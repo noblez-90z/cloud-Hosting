@@ -16,7 +16,7 @@ const InstantDeployment = () => {
             </p>
           </div>
 
-          <div className="affordable-vps-hosting-use-cases-item affordable-vps-hosting-use-cases-ecommerce mt-10">
+          <div className="affordable-vps-hosting-use-cases-item affordable-vps-hosting-use-cases-ecommerce mt-10 px-2">
             <div className="affordable-vps-hosting-use-cases-content grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
               <div className="affordable-vps-hosting-use-cases-info">
                 <h3 className="affordable-vps-hosting-use-cases-subtitle font-bold text-2xl py-3">

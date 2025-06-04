@@ -5,7 +5,7 @@ const Instantserver = () => {
       <section className="section-gap  py-6">
         <div className="container">
           <div className="row grid grid-cols-1 md:grid-cols-2 gap-4 items-center ">
-            <div className="col-md-6 col-12 me-20 text-lg text-right">
+            <div className="col-md-6 col-12  text-lg text-right">
               <div>
                 <div className="icon-width-heading">
                   <h2 className="font-bold text-3xl py-3">Our Servers</h2>

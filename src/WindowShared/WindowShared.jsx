@@ -7,7 +7,7 @@ import Section from "./Section";
 
 const WindowShared = () => {
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       <Hero />
       <HostingPricing />
       <Performances />

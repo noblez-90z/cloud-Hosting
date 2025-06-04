@@ -136,7 +136,7 @@ const Performances = () => {
                 </div>
               </div>
             </div>
-            <div className="row  grid grid-cols-1 md:grid-cols-3 gap-3 md:px-4 justify-center  mx-auto  text-center">
+            <div className="row  grid grid-cols-1 md:grid-cols-3 gap-3 md:px-4 px-2 justify-center  mx-auto  text-center">
               <div className="col-lg-4   lg:ml-6">
                 <div className="text-start mt-10">
                   <h4 className="font-bold text-2xl py-4">

@@ -3,10 +3,10 @@ import ControlPanels from "./ControlPanel";
 import DedicatedPopularUseScenarios from "./MostCase";
 const Add_ons = () => {
   return (
-    <div className="w-full py-6 bg-[#000] text-white">
+    <div className="w-full py-6 bg-[#000] text-white px-2">
       <section class="add-ons-for-your-dedicated-server-section mx-auto">
         <div class="container  py-6 mx-auto">
-          <div class="add-ons-for-your-dedicated-server-header text-center py-6">
+          <div class="add-ons-for-your-dedicated-server-header text-center py-6 px-2">
             <h2 class="add-ons-for-your-dedicated-server-title  font-bold text-2xl">
               Enhance Your Dedicated Server with Powerful Add-Ons
             </h2>

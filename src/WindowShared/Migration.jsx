@@ -146,8 +146,7 @@ export default function FreeWebsiteMigration() {
             <a
               href="#migrate"
               ref={buttonRef}
-              className="inline-block px-6 py-3 text-white rounded-lg font-semibold transition duration-300"
-              style={{ background: "rgb(15, 189, 145)" }}
+              className="inline-block px-6 py-3 text-white rounded-lg font-semibold transition duration-300 bg-[#8c32ff]"
             >
               Request for Migration <span className="ml-2">→</span>
             </a>

@@ -181,7 +181,7 @@ const Rating = () => {
         <Partner />
       </div>
       {/* FAQ  */}
-      <div className="bg-[#000] py-10 px-6">
+      <div className="bg-[#000] py-10 md:px-6">
         <FaqAccordion />
       </div>
       <div className="bg-[#000] py-10 px-6">

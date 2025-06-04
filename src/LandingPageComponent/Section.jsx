@@ -4,7 +4,7 @@ const Section = () => {
       <div className="container   mt-32 md:mt-0 ">
         <div class="row justify-content-center ">
           <div class="col-lg-6 col-md-10">
-            <div class="banner-heading text-center  md:px-6">
+            <div class="banner-heading text-center px-2 md:px-6">
               <h1 className="mt-4 text-5xl md:text-[80px] font-bold tracking-[-4.2px] leading-[1.0952em]">
                 Get a Domain Name.
               </h1>

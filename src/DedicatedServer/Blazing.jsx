@@ -17,8 +17,8 @@ const Blazing = () => {
           </div>
 
           {/* <!-- First row --> */}
-          <div class="affordable-experience-vps-hosting-row grid grid-cols-1 md:grid-cols-3 space-x-3 mt-6 py-6">
-            <div class="affordable-experience-vps-hosting-card affordable-experience-vps-hosting-wide bg-[#171717] border-2 border-[#ffffff1a] text-[#fff] border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
+          <div class="affordable-experience-vps-hosting-row grid grid-cols-1 md:grid-cols-3 space-x-3 mt-6 py-6 gap-5">
+            <div class="affordable-experience-vps-hosting-card affordable-experience-vps-hosting-wide bg-[#171717]  border-[#ffffff1a] text-[#fff] border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
               <h3 class="affordable-experience-vps-hosting-card-title py-3 text-xl font-bold">
                 High-Performance Hardware
               </h3>
@@ -30,7 +30,7 @@ const Blazing = () => {
               </p>
             </div>
 
-            <div class="affordable-experience-vps-hosting-card affordable-experience-vps-hosting-wide affordable-experience-vps-hosting-green bg-[#171717] border-2 border-[#ffffff1a] text-[#fff] border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
+            <div class="affordable-experience-vps-hosting-card affordable-experience-vps-hosting-wide affordable-experience-vps-hosting-green bg-[#171717] border-2 border-[#ffffff1a] text-[#fff]  border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
               <h3 class="affordable-experience-vps-hosting-card-title py-3 text-xl font-bold">
                 Wide Selection of Operating Systems
               </h3>
@@ -42,7 +42,7 @@ const Blazing = () => {
               </p>
             </div>
 
-            <div class="affordable-experience-vps-hosting-card affordable-experience-vps-hosting-narrow bg-[#171717] border-2 border-[#ffffff1a] text-[#fff] border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3] text-center">
+            <div class="affordable-experience-vps-hosting-card affordable-experience-vps-hosting-narrow bg-[#171717] border-2 border-[#ffffff1a] text-[#fff]  border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3] text-center">
               <div class="affordable-experience-vps-hosting-icon-center py-4 mt-3 mx-auto  w-fit">
                 <img
                   width="64"
@@ -62,8 +62,8 @@ const Blazing = () => {
           </div>
 
           {/* <!-- Second row --> */}
-          <div class="affordable-experience-vps-hosting-row grid grid-cols-1 md:grid-cols-3 space-x-3 ">
-            <div class="affordable-experience-vps-hosting-card affordable-experience-vps-hosting-wide bg-[#171717] border-2 border-[#ffffff1a] text-[#fff] border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
+          <div class="affordable-experience-vps-hosting-row grid grid-cols-1 md:grid-cols-3 gap-5 space-x-3 ">
+            <div class="affordable-experience-vps-hosting-card affordable-experience-vps-hosting-wide bg-[#171717]  border-[#ffffff1a] text-[#fff] border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
               <h3 class="affordable-experience-vps-hosting-card-title py-3 text-xl font-bold">
                 Seamless Resource Upgrades
               </h3>
@@ -75,7 +75,7 @@ const Blazing = () => {
               </p>
             </div>
 
-            <div class="affordable-experience-vps-hosting-card affordable-experience-vps-hosting-narrow bg-[#171717] border-2 border-[#ffffff1a] text-[#fff] border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3] text-center">
+            <div class="affordable-experience-vps-hosting-card affordable-experience-vps-hosting-narrow bg-[#171717] 2 border-[#ffffff1a] text-[#fff] border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3] text-center">
               <div class="affordable-experience-vps-hosting-icon-center py-4 mx-auto  w-fit">
                 <img
                   width="64"
@@ -93,7 +93,7 @@ const Blazing = () => {
               </p>
             </div>
 
-            <div class="affordable-experience-vps-hosting-card affordable-experience-vps-hosting-wide bg-[#171717] border-2 border-[#ffffff1a] text-[#fff] border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
+            <div class="affordable-experience-vps-hosting-card affordable-experience-vps-hosting-wide bg-[#171717] border-[#ffffff1a] text-[#fff] border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
               <h3 class="affordable-experience-vps-hosting-card-title py-3 text-xl font-bold">
                 Built-In Security Features
               </h3>
@@ -107,8 +107,8 @@ const Blazing = () => {
           </div>
 
           {/* <!-- Third row --> */}
-          <div class="affordable-experience-vps-hosting-row grid grid-cols-1 md:grid-cols-3 space-x-3 mt-6">
-            <div class="affordable-experience-vps-hosting-card affordable-experience-vps-hosting-narrow affordable-experience-vps-hosting-green bg-[#171717] border-2 border-[#ffffff1a] text-[#fff] border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3] text-center">
+          <div class="affordable-experience-vps-hosting-row grid grid-cols-1 md:grid-cols-3 gap-5 space-x-3 mt-6">
+            <div class="affordable-experience-vps-hosting-card affordable-experience-vps-hosting-narrow affordable-experience-vps-hosting-green bg-[#171717]  border-[#ffffff1a] text-[#fff] border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3] text-center">
               <div class="affordable-experience-vps-hosting-icon-center py-4 mt-3 mx-auto  w-fit">
                 <img
                   width="63"
@@ -126,7 +126,7 @@ const Blazing = () => {
               </p>
             </div>
 
-            <div class="affordable-experience-vps-hosting-card affordable-experience-vps-hosting-wide bg-[#171717] border-2 border-[#ffffff1a] text-[#fff] border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
+            <div class="affordable-experience-vps-hosting-card affordable-experience-vps-hosting-wide bg-[#171717]  border-[#ffffff1a] text-[#fff] border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
               <h3 class="affordable-experience-vps-hosting-card-title py-3 text-xl font-bold">
                 Uptime Reliability & DDoS Protection
               </h3>
@@ -138,7 +138,7 @@ const Blazing = () => {
               </p>
             </div>
 
-            <div class="affordable-experience-vps-hosting-card affordable-experience-vps-hosting-wide bg-[#171717] border-2 border-[#ffffff1a] text-[#fff] border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
+            <div class="affordable-experience-vps-hosting-card affordable-experience-vps-hosting-wide bg-[#171717]  border-[#ffffff1a] text-[#fff] border-2 border-[#8c32ff] shadow-md transition-all duration-300 ease-in-out py-4 px-4 rounded-lg hover:-translate-y-[5px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:border-[#4f0cb3]">
               <h3 class="affordable-experience-vps-hosting-card-title py-3 text-xl font-bold">
                 Virtual Console Access
               </h3>
@@ -165,8 +165,8 @@ const Blazing = () => {
               </p>
             </div>
 
-            <div class="affordable-vps-hosting-use-cases-item affordable-vps-hosting-use-cases-ecommerce ">
-              <div class="affordable-vps-hosting-use-cases-content flex justify-center  space-x-6 mt-6">
+            <div class="affordable-vps-hosting-use-cases-item affordable-vps-hosting-use-cases-ecommerce px-2">
+              <div class="affordable-vps-hosting-use-cases-content md:flex justify-center  md:space-x-6 mt-6">
                 <div class="affordable-vps-hosting-use-cases-info flex-1">
                   <h3 class="affordable-vps-hosting-use-cases-subtitle font-bold text-2xl py-3">
                     Exclusive Resources, Unshared Power
@@ -194,7 +194,7 @@ const Blazing = () => {
                   </p>
                 </div>
                 <div class="affordable-vps-hosting-use-cases-image flex-1 flex justify-center">
-                  <div class="affordable-vps-hosting-use-cases-image-wrapper mx-auto">
+                  <div class="affordable-vps-hosting-use-cases-image-wrapper mx-auto mt-8 md:mt-0">
                     <img
                       src={superman}
                       alt="E-commerce VPS hosting"
@@ -217,8 +217,8 @@ const Blazing = () => {
               </div>
             </div>
 
-            <div class="affordable-vps-hosting-use-cases-item affordable-vps-hosting-use-cases-database mt-10">
-              <div className="affordable-vps-hosting-use-cases-content affordable-vps-hosting-use-cases-reversed   py-10 flex justify-center space-x-6">
+            <div class="affordable-vps-hosting-use-cases-item affordable-vps-hosting-use-cases-database mt-10 px-2">
+              <div className="affordable-vps-hosting-use-cases-content affordable-vps-hosting-use-cases-reversed   py-10 md:flex justify-center md:space-x-6">
                 <div class="affordable-vps-hosting-use-cases-info flex-1">
                   <h3 class="affordable-vps-hosting-use-cases-subtitle font-bold text-2xl py-4">
                     Direct-to-Hardware Performance
@@ -247,7 +247,7 @@ const Blazing = () => {
                   </p>
                 </div>
                 <div class="affordable-vps-hosting-use-cases-image flex-1 flex justify-center">
-                  <div class="affordable-vps-hosting-use-cases-image-wrapper ">
+                  <div class="affordable-vps-hosting-use-cases-image-wrapper mt-8 md:mt-0">
                     <img
                       src={pic}
                       alt="Database VPS hosting"
@@ -284,7 +284,7 @@ const Blazing = () => {
               </p>
               <a
                 href="#"
-                className="affordable-vps-hosting-use-cases-cta-button border py-2 px-6 mt-6 border-2 border-[#8c32ff] rounded-xl  w-40 rounded-lg font-semibold text-xl text-[#000] bg-[#8c32ff] hover:bg-[#000] hover:text-[#fff] tranistion 0s ease-in-out"
+                className="affordable-vps-hosting-use-cases-cta-button  py-2 px-6 mt-6 border-2 border-[#8c32ff] rounded-xl  w-40  font-semibold text-xl text-[#000] bg-[#8c32ff] hover:bg-[#000] hover:text-[#fff] tranistion 0s ease-in-out"
               >
                 View Plans
               </a>
