@@ -1,7 +1,4 @@
 import "./App.css";
-import Header from "./LandingPageComponent/Header";
-
-import Footer from "./LandingPageComponent/Footer";
 
 import DedicatedServer from "./DedicatedServer/DedicatedServer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -14,7 +11,6 @@ function App() {
   return (
     <>
       <Router>
-        <Header />
         <Routes>
           <Route path="/" exact element={<Homepage />} />
           <Route path="/dedicatedServer" exact element={<DedicatedServer />} />
@@ -30,8 +26,6 @@ function App() {
             element={<InstaneDedicatedServer />}
           />
         </Routes>
-
-        <Footer />
       </Router>
     </>
   );

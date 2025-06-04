@@ -268,7 +268,9 @@ const Header = () => {
           style={{ marginLeft: OpenMenu ? "0" : "-100%" }}
         >
           <div className=" h-20 w-full flex items-center justify-center">
-            <img src={logo} alt="" />
+            <Link to="/">
+              <img src={logo} alt="" />
+            </Link>
           </div>
           <div className="block md:hidden    px-4 mt-4">
             <nav>
@@ -378,10 +380,10 @@ const Header = () => {
                           Linux Shared Hosting
                         </li>
                         <li className="hover:text-[#8a42ff] hover:underline mb-3">
-                          Window Shared Hosting
+                          <Link to="/windowShared">Window Shared Hosting</Link>
                         </li>
                         <li className="hover:text-[#8a42ff] hover:underline mb-3">
-                          WordPress Hosting
+                          <Link to="/wordPressHosting">WordPress Hosting</Link>
                         </li>
                       </div>
                       <div className="">
@@ -407,10 +409,14 @@ const Header = () => {
                         </li>
                         <li className="hover:text-[#8a42ff] hover:underline mb-3">
                           {" "}
-                          Linux Dedicated Server
+                          <Link to="/instantDedicatedServer">
+                            Linux Dedicated Server (Instant server)
+                          </Link>
                         </li>
                         <li className="hover:text-[#8a42ff] hover:underline mb-3">
-                          Window Dedicated Server
+                          <Link to="/dedicatedServer">
+                            Window Dedicated Server
+                          </Link>
                         </li>
                       </div>
                     </div>

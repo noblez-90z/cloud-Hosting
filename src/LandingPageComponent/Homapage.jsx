@@ -1,3 +1,4 @@
+import Layout from "../Layout/Layout";
 import Hosting from "./HostingSection";
 import Rating from "./Rating";
 import Section from "./Section";
@@ -6,13 +7,15 @@ import Started from "./Started";
 
 const Homepage = () => {
   return (
-    <div className="overflow-x-hidden">
-      <Section />
-      <SectionTwo />
-      <Hosting />
-      <Started />
-      <Rating />
-    </div>
+    <Layout>
+      <div className="overflow-x-hidden">
+        <Section />
+        <SectionTwo />
+        <Hosting />
+        <Started />
+        <Rating />
+      </div>
+    </Layout>
   );
 };
 

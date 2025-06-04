@@ -6,16 +6,18 @@ import LiteSpeed from "./LiteSpeed";
 
 const WordPressHosting = () => {
   return (
-    <div className="overflow-x-hidden">
-      <Hero />
-      <HostingPricing />
-      <Performance />
-      <LiteSpeed />
-      <div className="bg-[#000]">
-        {" "}
-        <FaqAccordion />
+    <Layout>
+      <div className="overflow-x-hidden">
+        <Hero />
+        <HostingPricing />
+        <Performance />
+        <LiteSpeed />
+        <div className="bg-[#000]">
+          {" "}
+          <FaqAccordion />
+        </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 
