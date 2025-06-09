@@ -6,6 +6,7 @@ import Homepage from "./LandingPageComponent/Homapage";
 import WindowShared from "./WindowShared/WindowShared";
 import WordPressHosting from "./WordpressHosting/WordpressHosting";
 import InstaneDedicatedServer from "./InstantDedicatedServer/InstanstDedicatedServer";
+import DevHome from "./DevelopmentAgency/DevhomePage";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             exact
             element={<InstaneDedicatedServer />}
           />
+          <Route path="/devHomepage" exact element={<DevHome />} />
         </Routes>
       </Router>
     </>
