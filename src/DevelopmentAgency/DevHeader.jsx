@@ -1,6 +1,6 @@
 const DevHeader = () => {
   return (
-    <div className=" flex justify-between items-center px-3 md:px-6 py-3 bg-[#000] text-white">
+    <div className="overflow-x-hidden flex justify-between items-center px-3 md:px-6 py-3 bg-[#000] text-white">
       <div className="">
         <h2>logo</h2>
       </div>

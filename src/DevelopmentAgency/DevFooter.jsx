@@ -40,7 +40,7 @@ const Devfooter = () => {
         <button className="py-2 px-3 my-5 border">get started</button>
       </div>
       <div className="">
-        <footer className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <footer className="grid grid-cols-1 md:grid-cols-2 gap-6 px-2">
           <div className="  ">
             <div className="">
               <h2>logo</h2>

@@ -5,7 +5,7 @@ const DevHero = () => {
         <h3 className=" py-2 px-3 my-5 w-fit mx-auto bg-[#171717] text-gray-300">
           new update out now
         </h3>
-        <h1 className="capitalize text-6xl font-bold py-3">
+        <h1 className="capitalize text-3xl md:text-6xl font-bold py-3">
           innovovative techiques for web development{" "}
         </h1>
         <p className="py-3 mb-6">
