@@ -310,7 +310,7 @@ const Header = () => {
                           Bulk Domain Registration
                         </li>
                         <li className="hover:text-[#8a42ff] hover:underline mb-3">
-                          New Domain Extensions
+                          <Link to="/devHomepage">New Domain Extensions</Link>
                         </li>
                         <li className="hover:text-[#8a42ff] hover:underline mb-3">
                           Sunrise Domains
